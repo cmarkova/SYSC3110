@@ -32,7 +32,7 @@ public class BuddyInfo {
     }
 
     public static void main(String[] args) {
-        BuddyInfo buddyInfo = new BuddyInfo("Christine Markova", "101300150", "SYSC 3110");
+        BuddyInfo buddyInfo = new BuddyInfo("Christine Markova", "SYSC 3110", "101300150");
         System.out.println("Hello, " + buddyInfo.getName() + "!");
     }
 }
