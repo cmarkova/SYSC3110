@@ -31,6 +31,11 @@ public class BuddyInfo {
         return address;
     }
 
+    @Override
+    public String toString() {
+        return "Name: " + name + "\nAddress: " + address + "\nPhone Number: " + phoneNumber;
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddyInfo = new BuddyInfo("Christine Markova", "SYSC 3110", "101300150");
         System.out.println("Hello, " + buddyInfo.getName() + "!");
