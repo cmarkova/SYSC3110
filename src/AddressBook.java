@@ -1,3 +1,5 @@
+// Test editing code outside IntelliJ
+
 import java.util.ArrayList;
 
 public class AddressBook {
